@@ -9,19 +9,19 @@ A Command Line Interface (CLI) based password manager to store all your password
 <br>
 
 ## Setup and Installation
-###### 1. Making sure MySQL is running
-Install MySQL in your system from [here](https://dev.mysql.com/downloads/) if it's not already installed.
+#### 1. Making sure MySQL is running
+Install MySQL in your system from [here](https://dev.mysql.com/downloads/) if it's not already installed.  
 Open MySQL Command Line Client and verify the user credentials by logging in.
-###### 2. Changing MySQL Login Credentials
+#### 2. Changing MySQL Login Credentials
 Open database_manager.py and password_manager.py in any code editor,  
-then change login credentials for MySQL in the code present in the first few lines.
+Then change login credentials for MySQL in the code present in the first few lines.
 
 ![img.2: sql login credentials](https://raw.githubusercontent.com/siphyshu/passkeep-password-manager/master/imgs/passkeep_sql_login_code.png)
 
-###### 3. Installing Python Libraries
+#### 3. Installing Python Libraries
 Open cmd or terminal and run the following commands:
 
-`python -m pip install prettytable` to install prettytable library. 
+`python -m pip install prettytable` to install prettytable library.  
 Used to output the database query results in a nicely formatted table.
 
 `python -m pip install mysql-connector-python` install MySQL-Python connector.
