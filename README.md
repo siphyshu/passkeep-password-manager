@@ -5,7 +5,7 @@ A Command Line (CLI) based password manager to store all your passwords, built u
 ![img.1: welcome screen](https://raw.githubusercontent.com/siphyshu/passkeep-password-manager/master/imgs/passkeep_welcome.png)
 
 
-### Setup and Installation
+### Setup and Installation 🧰
 #### 1. Making sure MySQL is running
 Install MySQL in your system from [here](https://dev.mysql.com/downloads/) if it's not already installed.  
 Open MySQL Command Line Client and verify the user credentials by logging in.
@@ -29,8 +29,9 @@ Create an account by entering "C" then follow the instructions afterwards.
 
 ![img.3: user menu](https://raw.githubusercontent.com/siphyshu/passkeep-password-manager/master/imgs/passkeep_menu.png)
 
+<br>
 
-### Side Quest
+### Side Quest 🛬
 The program is vulnerable to SQLi, see if you can do the following:
 - [ ]  Drop your own user_data table
 - [ ]  Access the "users" table
