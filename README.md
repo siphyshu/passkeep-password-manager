@@ -1,14 +1,11 @@
-# Passkeep - Password Manager
---- 
+# 🔑 Passkeep - Password Manager
 
-## Summary
-A Command Line Interface (CLI) based password manager to store all your passwords, built using python-3 and mysql. Access all your passwords just by remembering one master password. The Passwords are encrypted using the SHA1 encryption scheme.
+A Command Line (CLI) based password manager to store all your passwords, built using python-3 and mysql. Create one master password and forget all others. The Passwords are encrypted using the SHA1 encryption scheme.
 
 ![img.1: welcome screen](https://raw.githubusercontent.com/siphyshu/passkeep-password-manager/master/imgs/passkeep_welcome.png)
 
-<br>
 
-## Setup and Installation
+### Setup and Installation
 #### 1. Making sure MySQL is running
 Install MySQL in your system from [here](https://dev.mysql.com/downloads/) if it's not already installed.  
 Open MySQL Command Line Client and verify the user credentials by logging in.
@@ -26,18 +23,15 @@ Used to output the database query results in a nicely formatted table.
 
 `python -m pip install mysql-connector-python` install MySQL-Python connector.
 
-<br>
-
-## Running the Program
+#### 4. Running the Program
 Start main.py in python shell mode or run it directly from the command line.<br>
 Create an account by entering "C" then follow the instructions afterwards.
 
 ![img.3: user menu](https://raw.githubusercontent.com/siphyshu/passkeep-password-manager/master/imgs/passkeep_menu.png)
 
-<br>
 
-## Side Quest
-The program is vulnerable to SQLi, see if you can manage to do the following tasks:
+### Side Quest
+The program is vulnerable to SQLi, see if you can do the following:
 - [ ]  Drop your own user_data table
 - [ ]  Access the "users" table
 - [ ]  See passwords of any user
